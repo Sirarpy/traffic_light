@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 30px auto;
+    padding: 20px 10px;
+    width: 100px;
+    background-color: gray;
+    border-radius: 50px;
+}
+.lightItem{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: gray;
+    margin: 20px auto;
+    box-shadow: 5px 0 10px wheat;
+}
+.lightItem.red{
+    background-color: red;
+}
+.lightItem.yellow{
+    background-color: yellow;
+}
+.lightItem.green{
+    background-color: green;
+}
